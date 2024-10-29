@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #e8e5e480;
+    width: max-content;
+    margin: 0 auto;
+    padding: 4px;
+    border-radius: 20px;
+
+    position: fixed;
+    top: 40px;
+    transform: translateX(-50%);
+    backdrop-filter: blur(20px);
+    
+
+    a {
+        text-decoration: none;
+        color: #000;
+        background-color: transparent;
+        border-radius: 30px;
+        padding: 8px 24px;
+
+        &:hover {
+            background-color: white;
+        }
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
